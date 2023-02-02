@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<package>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+
   <name>teraranger_array</name>
   <version>2.0.0</version>
   <description>This package provides ros nodes for multi-sensor arrays from Terabee</description>
@@ -30,12 +32,12 @@
 
   <test_depend>rosunit</test_depend>
 
-  <run_depend>message_runtime</run_depend>
-  <run_depend>roscpp</run_depend>
-  <run_depend>sensor_msgs</run_depend>
-  <run_depend>geometry_msgs</run_depend>
-  <run_depend>std_msgs</run_depend>
-  <run_depend>dynamic_reconfigure</run_depend>
-  <run_depend>rospy</run_depend>
-  <run_depend>serial</run_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>dynamic_reconfigure</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>serial</exec_depend>
 </package>
